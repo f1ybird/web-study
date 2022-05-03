@@ -19,7 +19,7 @@
 # 学习阶段
 ## 阶段1 基础入门 html css
 - ~~html认知~~
-- html基础
+- ~~html基础~~
 - css基础选择器
 - css选择器进阶
 - css盒子模型
