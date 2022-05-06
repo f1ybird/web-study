@@ -1,0 +1,29 @@
+.sina {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.time {
+    color: grey;
+}
+
+.fu-title {
+    color: skyblue;
+    font-weight: 700;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.content {
+    text-align: center;
+}
+
+.word {
+    text-indent: 2em;
+}
