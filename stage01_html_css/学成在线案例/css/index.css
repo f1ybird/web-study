@@ -9,17 +9,20 @@
 li {
     list-style: none;
 }
+
 a {
     text-decoration: none;
 }
 
-.clearfix:before,.clearfix:after {
-    content:"";
-    display:table; 
-  }
-  .clearfix:after {
-    clear:both;
-  }
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
 
 
 body {
@@ -109,6 +112,7 @@ h1 {
     height: 42px;
     line-height: 42px;
 }
+
 .user img {
     /* 调节图片垂直对齐方式, middle:居中 */
     vertical-align: middle;
@@ -132,7 +136,7 @@ h1 {
 
     width: 190px;
     height: 420px;
-    background-color: rgba(0,0,0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 
     /* 行高属于控制文字的属性, 能继承 */
     line-height: 44px;
@@ -174,7 +178,7 @@ h1 {
 
 .banner .right .content dl {
     padding: 12px 0;
-    border-bottom:2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
 }
 
 .banner .right .content dt {
@@ -211,8 +215,7 @@ h1 {
 
     height: 60px;
     background-color: #fff;
-    box-shadow: 0px 2px 3px 0px 
-		rgba(118, 118, 118, 0.2);
+    box-shadow: 0px 2px 3px 0px rgba(118, 118, 118, 0.2);
 
     line-height: 60px;
 
@@ -314,7 +317,7 @@ h1 {
     float: left;
 }
 
-.footer .left  p {
+.footer .left p {
     margin: 20px 0 10px;
     font-size: 12px;
     color: #666;
