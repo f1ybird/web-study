@@ -318,3 +318,13 @@ h1 {
     float: left;
     margin-left: 120px;
 }
+
+.box .content li{
+    position: relative;
+}
+
+.box .content li .hot{
+    position: absolute;
+    top: 4px;
+    right: -4px;
+}
