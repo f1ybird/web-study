@@ -1,0 +1,44 @@
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* ----------------------------xtx-shortcut部分的样式 */
+.xtx-shortcut {
+    height: 52px;
+    background-color: #333333;
+}
+
+.xtx-shortcut .container {
+    height: 52px;
+}
+
+.xtx-shortcut .container li {
+    float: left;
+    line-height: 52px;
+    color: #666;
+}
+
+.xtx-shortcut .container a {
+    margin: 0 16px;
+    color: #dcdcdc;
+    font-size: 14px;
+}
+
+.xtx-shortcut a:hover {
+    color: #27ba9b;
+}
+
+.xtx-shortcut li:last-child a {
+    margin-right: 0;
+}
+
+.xtx-shortcut .mobile::before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin-right: 6px;
+    vertical-align: middle;
+    background: url('../images/sprites.png') -160px -70px;
+}
